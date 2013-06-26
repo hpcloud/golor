@@ -33,7 +33,7 @@ func RGB(red, green, blue int) int {
 func init() {
 	RED = RGB(5, 0, 0)
 	GREEN = RGB(0, 5, 0)
-	BLUE = RGB(0, 0, 0)
+	BLUE = RGB(0, 0, 5)
 	CYAN = RGB(0, 5, 5)
 	MAGENTA = RGB(5, 0, 5)
 	YELLOW = RGB(5, 5, 0)
