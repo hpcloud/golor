@@ -4,7 +4,8 @@ package main
 
 import (
 	"fmt"
-	"logyard/util/golor"
+	"github.com/ActiveState/golor"
+	"time"
 )
 
 func main() {
@@ -20,8 +21,10 @@ func main() {
 	fmt.Println(golor.Colorize("LOWEST", golor.RGB(0, 0, 0), golor.WHITE))
 	fmt.Println(golor.Colorize("HIGHEST", golor.RGB(5, 5, 5), -1))
 	// fmt.Println(golor.Colorize("TEST", 16, -1))
-	/* for i := 255; i >= 0; i-- {
+	fmt.Println("Now printing 256 colors ...")
+	time.Sleep(time.Second)
+	for i := 255; i >= 0; i-- {
 		fmt.Println(golor.Colorize("Foreground", i, -1))
 		// fmt.Println(golor.ColorizeBg("Background", i, 100))
-	}*/
+	}
 }
