@@ -3,6 +3,8 @@
 golor is a terminal color package for Go, supporting both 16-colors mode and
 256 colors mode.
 
+## Example usage
+
 16-bit color printing:
 
 ```Go
@@ -22,8 +24,7 @@ fmt.Println(golor.Colorize("Foreground", index, -1))
 Consistently assigning unique colors to strings:
 
 ```Go
-// Assign an unique color for this string
+// See examples/unique.go
 name := "srid"
 fmt.Println(golor.Colorize(process, golor.AssignColor(name), -1))
-``
-
+```
