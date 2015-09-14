@@ -4,7 +4,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ActiveState/golor"
+	"github.com/hpcloud/golor"
 	"time"
 )
 
